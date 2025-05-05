@@ -158,7 +158,7 @@ Test the APIs using postman tool
 #### Loan Summary & Overdue Alerts API
 
 ### Loan summary fetched successfully  
-![Loan Summary Success](./screenshots/summaryApis/loan-summary-fetched-successfully.png)
+![Loan Summary Success](./screenshots/loanSummaryAndOverdueAlertsApi/loan-summary-fetched-successfully.png)
 
 ### Overdue loans fetched successfully  
-![Overdue Loans Success](./screenshots/summaryApis/overdue-loans-fetched-successfully.png)
+![Overdue Loans Success](./screenshots/loanSummaryAndOverdueAlertsApi/overdue-loans-fetched-successfully.png)
