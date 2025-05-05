@@ -112,7 +112,7 @@ Test the APIs using postman tool
 #### getCustomers API
 
 ### Customer retrieved successfully  
-![Customer Retrieved](./screenshots/crud/createCustomerApi/customer-retrieved-successfully.png)
+![Customer Retrieved](./screenshots/crud/getCustomersApi/customer-retrieved-successfully.png)
 
 
 #### updateCustomer API
