@@ -68,11 +68,11 @@ Test the APIs using postman tool
 
 #### Register API
 
-    ### Email and password are required
-    ![Missing Fields](./screenshots/register/missing-fields.png)
+### Email and password are required
+![Missing Fields](./screenshots/register/missing-fields.png)
 
-    ### User already exists with this email
-    ![Email Exists](./screenshots/register/email-already-exists.png)
+ ### User already exists with this email
+![Email Exists](./screenshots/register/email-already-exists.png)
 
-    ### User registered successfully
-    ![Success](./screenshots/register/success.png)
+### User registered successfully
+![Success](./screenshots/register/success.png)
