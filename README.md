@@ -66,13 +66,99 @@ Test the APIs using postman tool
 
 ## API Screenshots
 
-#### Register API
+#### REGISTER API
 
 ### Email and password are required
-![Missing Fields](./screenshots/register/missing-fields.png)
-
- ### User already exists with this email
-![Email Exists](./screenshots/register/email-already-exists.png)
+![Missing Fields](./screenshots/registerApi/missing-fields.png)
 
 ### User registered successfully
-![Success](./screenshots/register/success.png)
+![Success](./screenshots/registerApi/success.png)
+
+ ### User already exists with this email
+![Email Exists](./screenshots/registerApi/email-already-exists.png)
+
+### Output
+![Output](./screenshots/registerApi/output.png)
+
+#### LOGIN API
+
+### Email and password are required
+![Missing Fields](./screenshots/loginApi/missing-fields.png)
+
+### User Login successfully
+![Success](./screenshots/loginApi/login-success.png)
+
+### Invalid email or password
+![Invalid Email or Password](./screenshots/loginApi/invalid-email-or-password.png)
+
+##### CRUD Operations on Customer API
+
+
+#### createCustomer API
+
+### name and phone are required
+![Missing Fields](./screenshots/crud/createCustomerApi/missing-fields.png)
+
+### Invalid phone number
+![Invalid Phone number](./screenshots/crud/createCustomerApi/invalid-phone-number.png)
+
+### Trust score must be between 0 and 10  
+![Invalid Trust Score](./screenshots/crud/createCustomerApi/invalid-trust-score.png)
+
+### Customer created successfully  
+![Customer Created](./screenshots/crud/createCustomerApi/customer-created-successfully.png)
+
+
+#### getCustomers API
+
+### Customer retrieved successfully  
+![Customer Retrieved](./screenshots/crud/createCustomerApi/customer-retrieved-successfully.png)
+
+
+#### updateCustomer API
+
+### Customer not found  
+![Customer Not Found](./screenshots/crud/updateCustomerApi/customer-not-found.png)
+
+### Invalid phone number format  
+![Invalid Phone Format](./screenshots/crud/updateCustomerApi/invalid-phone-format.png)
+
+### Trust score must be between 0 and 10  
+![Invalid Trust Score](./screenshots/crud/updateCustomerApi/invalid-trust-score.png)
+
+### Customer updated successfully  
+![Customer Updated](./screenshots/crud/updateCustomerApi/customer-updated-successfully.png)
+
+
+#### deleteCustomer API
+
+### Customer deleted successfully  
+![Customer Deleted](./screenshots/crud/deleteCustomerApi/customer-deleted-successfully.png)
+
+
+#### Loan API
+
+
+### Loan created successfully  
+![Loan Created](./screenshots/loanApi/loan-created-successfully.png)
+
+### Loans fetched successfully  
+![Loans Fetched](./screenshots/loanApi/loans-fetched-successfully.png)
+
+
+#### Repayment API
+
+### Invalid loanId format  
+![Invalid loanId](./screenshots/repaymentApi/invalid-loanid-format.png)
+
+### Repayment recorded successfully  
+![Repayment Success](./screenshots/repaymentApi/repayment-recorded-successfully.png)
+
+
+#### Loan Summary & Overdue Alerts API
+
+### Loan summary fetched successfully  
+![Loan Summary Success](./screenshots/summaryApis/loan-summary-fetched-successfully.png)
+
+### Overdue loans fetched successfully  
+![Overdue Loans Success](./screenshots/summaryApis/overdue-loans-fetched-successfully.png)
